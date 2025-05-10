@@ -5,3 +5,8 @@
 `
 aws configure
 `
+### Get the secrets
+```
+aws secretsmanager get-secret-value --secret-id app/folder/env --output text
+```
+
